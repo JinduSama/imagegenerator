@@ -79,10 +79,8 @@ app.post('/api/generate', async (req, res) => {
     
     // Map model names
     const modelMap = {
-      'dalle3': 'openai/dall-e-3',
-      'dalle2': 'openai/dall-e-2',
       'flux2-pro': 'black-forest-labs/flux.2-pro',
-      'stable-diffusion': 'stabilityai/stable-diffusion-xl-v1.0'
+      'gemini': 'google/gemini-2.5-flash-image'
     };
 
     const selectedModel = modelMap[model] || modelMap['flux2-pro'];

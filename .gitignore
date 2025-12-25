@@ -32,3 +32,5 @@ yarn-error.log*
 coverage/
 .pytest_cache/
 .cache/
+
+*.png

@@ -190,9 +190,7 @@ Health check endpoint.
 | Model | ID | Description |
 |-------|-----|-------------|
 | FLUX.2 Pro | `flux2-pro` | Frontier-level quality |
-| DALL-E 3 | \`dalle3\` | Detailed & accurate |
-| DALL-E 2 | \`dalle2\` | Fast generation |
-| Stable Diffusion XL | \`stable-diffusion\` | Versatile |
+| Google Gemini 2.5 Flash Image | `gemini` | Advanced image generation |
 
 ## Security
 

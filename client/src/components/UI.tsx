@@ -80,9 +80,7 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({ isOpen, onClose })
               className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
               <option value="flux2-pro">FLUX.2 Pro</option>
-              <option value="dalle3">DALL-E 3</option>
-              <option value="dalle2">DALL-E 2</option>
-              <option value="stable-diffusion">Stable Diffusion XL</option>
+              <option value="gemini">Google Gemini 2.5 Flash Image</option>
             </select>
           </div>
 

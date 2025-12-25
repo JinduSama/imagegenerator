@@ -16,9 +16,7 @@ interface ModelSelectorProps {
 
 const MODELS = [
   { value: 'flux2-pro', label: 'FLUX.2 Pro', description: 'Frontier-level quality' },
-  { value: 'dalle3', label: 'DALL-E 3', description: 'Detailed & accurate' },
-  { value: 'dalle2', label: 'DALL-E 2', description: 'Fast generation' },
-  { value: 'stable-diffusion', label: 'Stable Diffusion XL', description: 'Versatile' },
+  { value: 'gemini', label: 'Google Gemini 2.5 Flash Image', description: 'Advanced image generation' },
 ];
 
 interface SizeSelectorProps {
